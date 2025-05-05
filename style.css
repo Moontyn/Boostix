@@ -1,0 +1,80 @@
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #1c1f24;
+  color: #ffffff;
+  line-height: 1.6;
+}
+
+header {
+  background: #2d3748;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+header h1 {
+  font-size: 3em;
+  margin-bottom: 0.2em;
+}
+
+header p {
+  font-size: 1.2em;
+  color: #ddd;
+}
+
+.btn {
+  margin-top: 20px;
+  padding: 12px 25px;
+  background: #00b894;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+section {
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.features {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.feature {
+  background: #34495e;
+  padding: 20px;
+  border-radius: 8px;
+  flex: 1 1 250px;
+}
+
+#donate {
+  background: #2e2e2e;
+  text-align: center;
+}
+
+.btn-donate {
+  display: inline-block;
+  padding: 14px 30px;
+  background-color: #ff5c5c;
+  color: #fff;
+  font-size: 1.1em;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background 0.3s;
+}
+
+.btn-donate:hover {
+  background-color: #e74c3c;
+}
+
+footer {
+  background: #2c3e50;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9em;
+}
